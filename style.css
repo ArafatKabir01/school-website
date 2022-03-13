@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Oswald:wght@500&family=Poppins:wght@400;500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka'
+}
+.main-header{
+    background-image: url(image/gettyimages-171306436-2048x2048.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: 1920px;
+    
+}
+.main-div{
+    color: white;
+    display: flex;
+    height: 100px;
+    border-bottom: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.376);
+    justify-content: space-between;
+
+}
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 200px;
+    justify-content: center;
+    margin-left: 20px;
+    border-right: 2px solid white;
+}
+.first-pages-link{
+    width: 1700px;
+    height: 50px;
+    border-bottom: 1px solid white;
+
+}
+.first-pages-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 12.5px;
+    
+}
+.secound-page-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+    float: right;
+    margin-right: 24px;
+    margin-top: 12.5px;
+}
+.apply-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    background-color: yellow;
+    height: 60px;
+    margin-top:-30px ;
+    position: relative;
+    float: right;
+    margin-bottom: 20px;
+}
+.apply-section a{
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+
+.explor-section{
+    background-color: rgb(14, 14, 68);
+    height: 600px;
+}
+.explor{
+    margin: 50px;
+}
+.explor-text{
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+}
+.img-div{
+    margin: 0;
+    padding: 0;
+}
+.img-div img {
+    width: 500px;
+    height: 350px ;
+}
+.card{
+    position:relative;
+    margin-top: -240px;
+    margin-left: 20px;
+    display: flex;
+    gap:2%;
+}
+.by-number{
+    margin-top: 90px;
+    
+}
+.circle{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 140px;
+}
+.by-num-img img{
+    width: 900px;
+    height: 594px;
+    
+
+}
+.by-num-img{
+    margin-left: 900px;
+    margin-top: -472px;
+}
+.by-num-text-img{
+    position: relative;
+}
+.by-num-imgtwo img{
+    position: relative;
+    width: 900px;
+    height: 594px;
+    margin-left: 60px;
+}
+.by-num-imgtwo{
+margin-top: -640px;
+}
+
+.circle-two{
+    display: flex;
+    justify-content: end;
+    gap: 2%;
+    margin-right: 160px;
+    margin-top: 20px;
+}
